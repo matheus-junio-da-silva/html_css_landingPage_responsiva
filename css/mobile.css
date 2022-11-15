@@ -1,0 +1,50 @@
+#navbar {
+    height: 180px;
+    position: relative;
+}
+#navbar-container {
+    flex-direction: column;
+    padding: 20px 0;
+}
+#navbar-items {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+#navbar-items li:nth-child(2) {
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+#showcase-container {
+    padding: 40px;
+}
+#clients-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+.client {
+    width: 40%;
+}
+#feature-container {
+    grid-template-columns: 1fr;
+}
+#feature-container .feature:nth-child(2) {
+    margin: 15px 0;
+}
+#product-container {
+    flex-direction: column;
+}
+#items {
+    width: 90%;
+}
+.item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.testimonial {
+    flex-direction: column;
+    text-align: center;
+}
+#gallery-container {
+    grid-template-columns: 1fr;
+}
